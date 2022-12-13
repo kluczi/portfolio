@@ -4,13 +4,15 @@ import { MdMail } from "react-icons/md";
 const Contact = () => {
   return (
     <div className="flex h-screen flex-col items-center justify-start py-2">
-      <div className="flex flex-row">
-        <a href="#home">
-          <div className="flex justify-start text-main-gray text-xl lg:text-3xl select-none">
-            back to home
-          </div>
-        </a>
-        <div className="flex justify-center text-main-white text-4xl lg:text-6xl select-none">
+      <div className="flex flex-row w-full my-3">
+        <div className="flex justify-start w-3/12">
+          <a href="#home">
+            <div className="flex justify-start text-main-gray text-xl lg:text-3xl select-none ml-6 my-3 hover:text-main-white transition ease-in-out delay-150 hover:-translate-y-1 duration-300">
+              back
+            </div>
+          </a>
+        </div>
+        <div className="flex justify-center text-main-white text-4xl lg:text-6xl select-none w-1/2">
           contact
         </div>
       </div>
@@ -26,12 +28,15 @@ const Contact = () => {
             </a>
           </div>
           <div className="flex flex-row items-center">
-            <a href="www.linkedin.com/in/bartek-kluska">
+            <a
+              href="https://www.linkedin.com/in/bartek-kluska/"
+              className="flex flex-row"
+            >
               <BsLinkedin color="#E6E6E6" fontSize="3.5em" />
+              <span className="text-main-gray text-3xl items-center justify-center m-4">
+                linked in
+              </span>
             </a>
-            <span className="text-main-gray text-3xl items-center justify-center m-4">
-              linked in
-            </span>
           </div>
         </div>
       </div>

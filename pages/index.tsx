@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import { Head } from "next/document";
 import AboutMe from "../components/AboutMe";
 import Button from "../components/Button";
 import Contact from "../components/Contact";
@@ -10,6 +11,9 @@ import WebDev from "../components/WebDev";
 const Home: NextPage = () => {
   return (
     <div>
+      <Head>
+        <title>Kluczi</title>
+      </Head>
       <div
         className="flex h-screen flex-col items-center justify-center py-2	"
         id="home"

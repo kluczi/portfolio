@@ -19,7 +19,7 @@ const Contact = () => {
       <div className="flex h-screen flex-col lg:flex-row justify-center lg:justify-center gap-12 lg:gap-24 m-12 lg:m-0">
         <div className="flex flex-col justify-center items-center">
           <div className="flex flex-row items-center justify-center">
-            <MdMail color="#E6E6E6" fontSize="3.5em" />
+            <MdMail color="#E6E6E6" fontSize="3em" />
             <a
               href="mailto:bartekcsgo04@gmail.com"
               className="text-main-gray text-3xl items-center justify-center m-4"
@@ -32,7 +32,7 @@ const Contact = () => {
               href="https://www.linkedin.com/in/bartek-kluska/"
               className="flex flex-row"
             >
-              <BsLinkedin color="#E6E6E6" fontSize="3.5em" />
+              <BsLinkedin color="#E6E6E6" fontSize="3em" />
               <span className="text-main-gray text-3xl items-center justify-center m-4">
                 linked in
               </span>

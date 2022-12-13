@@ -15,10 +15,9 @@ const WebDev = () => {
       </div>
       <div className="flex h-screen flex-col lg:flex-row justify-center lg:justify-center gap-12 lg:gap-24 m-12 lg:m-0">
         <div className="flex text-main-gray  text-2xl lg:text-4xl select-none items-center">
-          I am currently developing in React technology to build app and
-          TailwindCSS for styling. <br />
-          <br /> I associate my future with it. I am gaining new knowledge and
-          skills every day.
+          Currently my main learning path is React (Next.js) + TailwindCSS. I
+          associate my future with this combo. <br /> I am gaining new knowledge
+          and skills every day.
         </div>
         <div className="flex items-center justify-center">
           <img src="react-icon.png" alt="" style={{ width: "15rem" }} />

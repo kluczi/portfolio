@@ -17,9 +17,8 @@ const Other = () => {
       </div>
       <div className="flex h-screen flex-col lg:flex-row justify-center lg:justify-center gap-12 lg:gap-24 m-12 lg:m-0">
         <div className="flex text-main-gray  text-2xl lg:text-4xl select-none items-center">
-          As for other programming languages at school, <br /> I have contact
-          with HTML, CSS, Vanilla JS, Python, SQL and PHP. <br /> Some time ago
-          I was learning Swift for mobile apps.
+          As for other programming languages, I have contact with HTML, CSS,
+          Vanilla JS, Python, SQL, PHP and Swift.
         </div>
         <div className="flex items-center justify-center text-[10rem] lg:text-[15rem] text-main-white">
           <BsKeyboardFill />

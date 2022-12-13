@@ -22,9 +22,9 @@ const AboutMe = () => {
           is my passion since 2017, but programming is a thing that took my
           heart.
         </div>
-        <div className="flex items-center justify-center text-[10rem] lg:text-[15rem] text-main-white">
+        {/* <div className="flex items-center justify-center text-[10rem] lg:text-[15rem] text-main-white">
           <SiAboutdotme />
-        </div>
+        </div> */}
       </div>
     </div>
   );

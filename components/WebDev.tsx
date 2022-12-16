@@ -2,13 +2,7 @@ const WebDev = () => {
   return (
     <div className="flex h-screen flex-col items-center justify-start py-2">
       <div className="flex flex-row w-full my-3">
-        <div className="flex justify-start w-3/12">
-          <a href="#home">
-            <div className="flex justify-start text-main-gray text-xl lg:text-3xl select-none ml-6 my-3 hover:text-main-white transition ease-in-out delay-150 hover:-translate-y-1 duration-300">
-              back
-            </div>
-          </a>
-        </div>
+        <div className="flex justify-start w-3/12"></div>
         <div className="flex justify-center text-main-white text-4xl lg:text-6xl select-none w-1/2">
           web dev
         </div>
